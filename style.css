@@ -1,6 +1,6 @@
-/* Index/Home Webpage*/
 
-/* Searched for soft beige aesthetic wallpaper in Google and found brown background image. Searched soft beige green background and found feather image.*/
+
+/* Index, About, and Portfolio Pages */
 
 body {
     background-image: url(https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/v800-mynt-21-job597_1.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=786f030dc03e30b31d633515ce8620ad);
@@ -28,23 +28,39 @@ body {
     text-shadow: 0px 0px burlywood;
 }
 
-.hometext {
-    font-family: garamond;
-}
 
 .qualities {
     font-family: papyrus;
     align-items: center;
 }
 
+/* Index/Home Webpage Only*/
 
-/* About Webpage*/
-
-
-
-
-
-
+.hometext {
+    font-family: papyrus;
+    text-align: center;
+}
 
 
-/* Portfolio Webpage*/
+/* About Webpage Only*/
+
+.aboutmidheader {
+    font-family: garamond;
+    text-align: center;
+}
+
+.aboutmid h2 {
+    text-align: center;
+    font-family: papyrus;
+}
+
+
+/* Portfolio Webpage Only*/
+
+
+
+
+
+/* NOTES: 
+Searched for "soft beige aesthetic wallpaper" in Google and found background image. 
+Searched "soft beige green background" and found feather image.*/
