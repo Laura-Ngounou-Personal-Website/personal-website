@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,37 +8,51 @@
     <title>Home</title>
     <link rel="stylesheet" href="style.css">
     <script src="main.js"> </script>
+    <!-- General Sans font link below -->
+    <link href="https://api.fontshare.com/v2/css?f[]=general-sans@300&display=swap" rel="stylesheet">
 </head>
+
 <body>
 
-    <header class="mainheader">
+<div class="container">
+
+    <header class="header container">
         <h1>Laura Ngounou</h1>
+      
         <div class="links">
             <a href="./index.html">Home</a>
-            <a href="./about.html">About</a>
-            <a href="./portfolio.html">Portfolio</a>
-        </div>
-    </header>
-    
-    <div class="hometext">
+            |
+            <a href="./about.html">About</a>   
+            |
+            <a href="./portfolio.html">Portfolio</a> 
+            |
+            <a href="./contact.html">Contact</a>
+        </div> <!--End links div-->
+    </header> <!--End header-->
+
+    <br>
+    <br>
+          
+    <div class="intro">
         <h1>
            Junior Web Developer
         </h1>
-    </div>
-
-        <div class="qualities">
-
-        <h3>Committed to helping development teams create modern and meaningful websites that perform.</h3>
+       
+        <h3 class="section">Committed to helping development teams create modern and meaningful websites that perform.
+        </h3>
       
-            
-    </div>
-    </section>
-
-    <img src="https://www.thoughtco.com/thmb/U3pBztSvr2hXC6g5NjH-xDmebWQ=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-502089743-56d780b93df78cfb37dbddf7-3ae7e3dd46b241678f5096f0101be925.jpg" width=500em alt="Picture of two people sitting at a desk facing a computer">
+        <img class="section" src="https://www.thoughtco.com/thmb/U3pBztSvr2hXC6g5NjH-xDmebWQ=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-502089743-56d780b93df78cfb37dbddf7-3ae7e3dd46b241678f5096f0101be925.jpg" width=500em alt="Picture of two people sitting at a desk facing a computer">
+      
+        <button class="section" onclick="window.location.href='./contact.html';">Contact Laura</button>
         
-    <footer>
-                <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png?w=360" width="5%" alt="LinkedIn Logo"> 
-    </footer>
+    </div> <!--End intro div-->
+   
  
+</div> <!--End Container div-->
+
+<footer class="section">
+    <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png?w=360" width="5%" alt="LinkedIn Logo"> 
+</footer>
+
 </body>
 </html>
